@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #dfe9f3, #ffffff);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.actions .btn {
+    padding: 14px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.actions .btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.btn-view {
+    background-color: #17a2b8;
+}
+
+.btn-edit {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-add {
+    background-color: #28a745;
+}
